@@ -1,0 +1,25 @@
+body{
+    background-color: darksalmon;
+}
+div.p{
+    background-color: aqua;
+}
+div#p{
+    background-color: beige;
+    height: 300px;
+    width: 300px;
+    border: 2px dotted black;
+    padding: 40px;
+    margin: 100px;
+    box-sizing: border-box;
+}
+.child1{
+    background-color:khaki;
+    height:150px;
+    width: 150px;
+    border: 2px solid rgb(24, 20, 15);
+    padding-top: 15px;
+    padding-left: 15px;
+    color: coral;
+    margin: 30px;
+}
