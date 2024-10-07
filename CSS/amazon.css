@@ -1,0 +1,29 @@
+body{
+    background-image: url();
+}
+.bar{
+    display: flex;
+    margin: 2px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.bar img{
+    height: 75px;
+    width:100px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    
+}
+.nav{
+    display: block;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+}
