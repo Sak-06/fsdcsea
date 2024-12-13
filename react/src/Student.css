@@ -1,0 +1,9 @@
+.idcard{
+    border: 5px solid black;
+    height:300px;
+    width:300px;
+    background-color: plum;
+    color: brown;
+    border-spacing: 10px;
+    margin:200px;
+}
