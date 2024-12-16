@@ -6,6 +6,7 @@ import Login from './Login'
 import Registration from './Registration'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Mainlayout from './Mainlayout'
+import Appprops from './Appprops'
 
 
 function App() {
@@ -38,14 +39,17 @@ function App() {
       /*<Student pic={<img src={logo} height={80} width={80}/>} rollno="234" name="sakshi" branch="CSE" section="A"/>
     <Student college="ABES ENGINEERING COLLEGE" pic={<img src={logo} height={80} width={80}/>} rollno="234" name="sakshi" branch="CSE" section="A"/>*/
     <div>
-      <BrowserRouter>
+      
+      <Appprops/>
+
+      {/* <BrowserRouter>
       <Routes>
         <Route path='/' element={<Mainlayout/>}>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Registration/>}></Route>
         </Route>
         </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
       {/* <div>{JSON.stringify(rdata)}</div>
       <h2> Login Form </h2>
       <br></br>
